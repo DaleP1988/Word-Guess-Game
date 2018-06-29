@@ -39,8 +39,7 @@ console.log(answerArray);
 function remaining() {
 var remainingletters = word.length;
 while (remainingletters >  0);
-var r = document.getElementById("left");
-r.innerHTML = answerArray.join ("");
+
     
 }
 
@@ -52,7 +51,8 @@ r.innerHTML = answerArray.join ("");
 //letters already guessed
 
 if(guess === null) {
-    break;
+    
+
 
 
 } else {
@@ -70,7 +70,7 @@ for (var j = 0; j < word.length; j++){
 // display answer. THIS IS WRONG.
 
 {
-alert(answerArray.join ("");
+alert(answerArray.join (""));
 alert("You Got it! The answer is" + word);
 
 }
@@ -78,10 +78,10 @@ alert("You Got it! The answer is" + word);
 //need to make sure I am referencing the correct variables...
 
 var html = "<p>CLICK ANY KEY TO GET STARTED!</p>" +
-"<p>: " +  wins   + "</p>"  +
-"<p>Current Word: " +  current   + "</p>"  +
-"<p>Number of Guesses Remaining: " +  remaining  +   "</p>" +
-"<p>Letters Already Guessed: " + guessed +  "</p>";
+"<p>wins: " +  wins   + "</p>"  +
+"<p>current word: " +  current   + "</p>"  +
+"<p>number of guesses remaining: " +  remaining  +   "</p>" +
+"<p>letters already guessed: " + guessed +  "</p>";
 
 document.querySelector('#game').innerHTML = html;
 
