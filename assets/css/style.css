@@ -8,7 +8,7 @@ body, html {
 
 .hero-image {
 
-background-image: url(file:///Users/garnetdianthus/Repoman/Word-Guess-Game/assets/images/background.jpg);
+background-image: url(images/background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 opacity: .4;
@@ -57,24 +57,30 @@ float: right;
 
     color: goldenrod;
     font-size: 10px;
+    background-color: white;
+    border: 1px solid white;
+    opacity: .7;
+ 
   
-    
+  
     
     }
 
-    @media screen and (max-width: 640px){
+
+    /*
+
+    @media only screen and (max-width: 640px){
+
 
         .hero-text { 
 
-        right: 5%;
-      
-
-
-        }
-
+            right: 5%;
+            top: 20%;
+    
+            }
     }
     
-    @media screen and (max-width: 768px){
+    @media only screen and (max-width: 768px){
 
 
         .hero-text { 
@@ -83,20 +89,21 @@ float: right;
             top: 0%;
             
             
+            }
+
+    }
+
+    @media only screen and (max-width: 980px){
+
+            .hero-text { 
+
+                opacity: 1;
+                top: 50%;
+              
         
-    
-            }
+                }
 
 
     }
 
-    @media screen and (max-width: 980px){
-
-        .hero-text { 
-
-            right: 5%;
-            top: 20%;
-    
-            }
-
-    }
+    */
