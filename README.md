@@ -9,4 +9,4 @@ At the beginning of the game, the player is presented with an empty scoreboard, 
 
 
 
-**Check out this site at: [Word Guess Game](https://dalep1988.github.io/TriviaGame/.).**
+**Check out this site at: [Word Guess Game]( https://dalep1988.github.io/Word-Guess-Game/).**
