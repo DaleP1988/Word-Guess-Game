@@ -10,3 +10,6 @@ At the beginning of the game, the player is presented with an empty scoreboard, 
 
 
 **Check out this site at: [Word Guess Game]( https://dalep1988.github.io/Word-Guess-Game/).**
+
+![word](https://user-images.githubusercontent.com/38080854/46481556-79ff2e80-c7a8-11e8-870f-cd587f8575e7.jpg)
+
